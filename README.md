@@ -23,7 +23,7 @@ A sleek, dark-themed To-Do List web application that allows users to add, comple
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/your-username/todo-list.git
+git clone https://github.com/pragyat-nikunj/todo-list.git
 ```
 ### Usage
 Simply open the `index.html` file in your web browser, or host the files on a local server.
