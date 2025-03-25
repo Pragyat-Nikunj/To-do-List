@@ -1,0 +1,112 @@
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Dark theme */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #121212;
+}
+
+/* To-Do List Card */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.todo-box {
+    background: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 320px;
+}
+
+.todo-box h1 {
+    color: white;
+    margin-bottom: 15px;
+}
+
+/* Input field */
+.input-group {
+    display: flex;
+    align-items: center;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #333;
+    color: white;
+    outline: none;
+}
+
+input::placeholder {
+    color: #888;
+}
+
+/* Button */
+button {
+    background: #7e22ce;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: 0.2s;
+}
+
+button:hover {
+    background: #9b34e4;
+}
+
+li {
+    background: #303030;
+    color: white;
+    padding: 12px;
+    margin-top: 8px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Delete Button */
+li button {
+    background: #e63946; /* Red background */
+    border: none;
+    color: white; /* White text */
+    font-size: 14px;
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+li button:hover {
+    background: #d62839; /* Darker red on hover */
+}
+
+/* Completed Task */
+.completed {
+    text-decoration: line-through;
+    opacity: 0.6; /* Makes it look faded */
+    color: #bbb; /* Light gray color */
+    transition: 0.2s ease-in-out;
+}
